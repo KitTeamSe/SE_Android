@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <import type="android.view.View" />
+        <variable
+            name="viewModel"
+            type="com.se.framework.ui.main.mypage.TagItemViewModel" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:background="@drawable/text_bottom"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="55dp"
+                android:layout_height="25dp"
+                android:text="@{viewModel.id}"
+                android:textColor="@color/black"
+                android:gravity="center"
+                >
+            </TextView>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+            </View>
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="25dp"
+                android:text="@{viewModel.text}"
+                android:textColor="@color/black"
+                android:gravity="center"
+                >
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">SeBoard</string>
+
+    <!--Login Validation-->
+    <string name="invalid_id_password">Please provide a valid id and password.</string>
+
+    <!--empty state-->
+    <string name="empty_screen">We do not have anything here right now.</string>
+    <string name="please_retry">Please Retry</string>
+    <string name="retry">Retry</string>
+
+    <string-array name="questions">
+        <item>다른 이메일 주소는?</item>
+        <item>나의 보물은 1호는?</item>
+        <item>나의 출신 초등학교는?</item>
+        <item>나의 출신 고향은?</item>
+        <item>나의 이상형은?</item>
+        <item>어머니 성함은?</item>
+        <item>아버지 성함은?</item>
+        <item>가장 좋아하는 색깔은?</item>
+        <item>가장 좋아하는 음식은?</item>
+    </string-array>
+
+    <string-array name="tags">
+        <item>태그 선택</item>
+        <item>1학년</item>
+        <item>2학년</item>
+        <item>3학년</item>
+        <item>4학년</item>
+        <item>창의융합프로젝트2</item>
+        <item>SE</item>
+<!--        <item>컴퓨터구조</item>-->
+<!--        <item>Java</item>-->
+<!--        <item>C++</item>-->
+<!--        <item>Python</item>-->
+<!--        <item>학생회</item>-->
+<!--        <item>프로그래밍입문</item>-->
+<!--        <item>학사</item>-->
+<!--        <item>공지</item>-->
+    </string-array>
+
+    <string name="tagId">TAG ID</string>
+    <string name="tagExplain">우측 태그 아이디 입력</string>
+
+    <string name="msg_token_fmt" translatable="false">토큰 : %s</string>
+
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#ED58BFE1</color>
+
+    <!-- -->
+    <color name="emptyButton">#c6e9ff</color>
+    <color name="writeButton">#5bc0ff</color>
+
+    <!-- Point Color -->
+    <color name="plusPoint">#ff1919</color>
+    <color name="minusPoint">#1664ff</color>
+    <color name="light_gray">#dbdbdb</color>
+    <color name="white_70">#B3FFFFFF</color>
+    <color name="cyan_50">#E0F7FA</color>
+    <color name="amber_50">#FFF8E1</color>
+    <color name="purple_50">#F3E5F5</color>
+    <color name="gray">#7e7e7e</color>
+    <color name="colorStart">#00000000</color>
+    <color name="colorEnd">#8463d4</color>
+    <color name="colorTransparent">#00ffffff</color>
+    <color name="black_effective">#2a2a2a</color>
+    <color name="dark_gray">#696969</color>
+    <color name="white">@android:color/white</color>
+    <color name="black">@android:color/black</color>
+    <color name="transparent">@android:color/transparent</color>
+    <color name="yellowDark">#FBC02D</color>
+    <color name="greyDark">#616161</color>
+    <color name="greyDarkDark">#424242</color>
+    <color name="pinkDark">#EC407A</color>
+    <color name="blueDark">#1976D2</color>
+    <color name="mainblue">#ED58BFE1</color>
+</resources>
